@@ -23,5 +23,8 @@ The player tries to guess the hidden word one letter at a time before running ou
 - 💾 **Score tracking:** Save progress and performance between games  
 - 🧩 **Word categories:** Group words (e.g., animals, places, tech) for variety  
 
-1. Clone this repository or download the script.  
-2. Make sure you have your word lists saved as:
+## How can I run this
+1. Download the script.  
+2. Download the easy, medium, hard word lists
+3. Make a folder and put the python code and the word lists in it.
+4. Run the code!
