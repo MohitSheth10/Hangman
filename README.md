@@ -8,7 +8,7 @@ The player tries to guess the hidden word one letter at a time before running ou
 ## 🎮 Features
 
 - **Three difficulty modes:** Easy, Medium, and Hard  
-- **Randomized words** from separate text files for each mode  
+- **Randomized words** from separate text files for each mode (every line of each file is used)  
 - **Clean text-based interface** for smooth console play  
 - **Upper/lowercase input handling** for better user experience  
 - **Remaining guesses display** to track progress  
@@ -28,3 +28,6 @@ The player tries to guess the hidden word one letter at a time before running ou
 2. Download the easy, medium, hard word lists
 3. Make a folder and put the python code and the word lists in it.
 4. Run the code!
+
+## Adding your own words
+Open `easy.txt`, `medium.txt` or `hard.txt` and add words separated by spaces. You can put them on the same line or on new lines — the game reads the whole file.
