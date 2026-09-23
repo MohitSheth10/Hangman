@@ -16,7 +16,8 @@ while mode!="easy" and mode!="medium" and mode!="hard":
         print("Invalid")
     
 
-data=file.readline()
+data=file.read()  # Read every line of the word list, not just the first
+file.close()
 list=data.split() 
 word=random.choice(list)
 word=word.upper()
