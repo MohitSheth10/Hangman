@@ -1,6 +1,6 @@
 # 🪓 Hangman Game (Python)
 
-A classic **Hangman** game built with Python’s standard library — simple, fun, and extendable!  
+A Hangman game built with Python’s standard library.  
 The player tries to guess the hidden word one letter at a time before running out of chances.
 
 ---
@@ -9,10 +9,10 @@ The player tries to guess the hidden word one letter at a time before running ou
 
 - **Three difficulty modes:** Easy, Medium, and Hard  
 - **Randomized words** from separate text files for each mode (every line of each file is used)  
-- **Clean text-based interface** for smooth console play  
-- **Upper/lowercase input handling** for better user experience  
+- **Text-based interface** that runs in the console  
+- **Upper/lowercase input handling**  
 - **Remaining guesses display** to track progress  
-- **Modular structure** — easy to expand with new features  
+- **Modular structure:** easy to expand with new features  
 
 ---
 
@@ -30,4 +30,4 @@ The player tries to guess the hidden word one letter at a time before running ou
 4. Run the code!
 
 ## Adding your own words
-Open `easy.txt`, `medium.txt` or `hard.txt` and add words separated by spaces. You can put them on the same line or on new lines — the game reads the whole file.
+Open `easy.txt`, `medium.txt` or `hard.txt` and add words separated by spaces. You can put them on the same line or on new lines: the game reads the whole file.
