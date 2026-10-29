@@ -23,9 +23,15 @@ word=random.choice(list)
 word=word.upper()
 total_chances=7
 guessed_word="_"*len(word)
+guessed_letters=[]  # Every letter the player has already tried
 while total_chances!=0:
     print(guessed_word)
     letter=input("Enter the letter: ").upper()
+    if letter in guessed_letters:
+        # Same letter again: no life lost, just ask for another letter
+        print("You already guessed that letter. Try a different one.")
+        continue
+    guessed_letters.append(letter)
     if letter in word:
         for i in range(0,len(word)):
             if letter==word[i]:
